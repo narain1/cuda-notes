@@ -42,7 +42,3 @@ extern "C" {
         cudaFree(d_gray);
     }
 }
-
-// extern "C" {
-// void rgbToGrayscale(unsigned char *rgb, unsigned char *gray, int width, int height);
-// }
